@@ -2,7 +2,8 @@
 
 [![pub package](https://img.shields.io/pub/v/social_login.svg)](https://pub.dartlang.org/packages/social_login)
 
-A Flutter plugin to authenticate to social networks
+A Flutter plugin to authenticate to social networks.
+This package is forked from https://github.com/imablanco/social_login to fix dependency problem quickly. All functionalities are the same as the original package.
 
 ## Usage
 To use this plugin, add `social_login` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).

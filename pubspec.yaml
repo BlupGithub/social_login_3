@@ -1,7 +1,7 @@
-name: social_login
-description: A social login plugin
+name: social_login_2
+description: A social login plugin derived from `social_login`
 version: 0.0.2
-homepage: https://github.com/imablanco/social_login
+homepage: https://github.com/jooddang/social_login
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
