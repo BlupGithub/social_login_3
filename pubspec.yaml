@@ -1,7 +1,6 @@
-name: social_login_2
+name: social_login_3
 description: A social login plugin derived from `social_login`
-version: 0.0.2
-homepage: https://github.com/jooddang/social_login
+version: 0.0.1
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
