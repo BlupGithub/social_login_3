@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_login_3/social_login.dart';
+import 'package:social_login_3/social_login_3.dart';
 
 void main() => runApp(new MyApp());
 

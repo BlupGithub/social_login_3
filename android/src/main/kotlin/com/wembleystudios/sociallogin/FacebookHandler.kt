@@ -40,9 +40,11 @@ class FacebookHandler(context: Context, socialConfigOwner: SocialConfigOwner) {
     }
 
     init {
-        FacebookSdk.setApplicationId(socialConfigOwner.socialConfig.facebookAppId)
-        FacebookSdk.sdkInitialize(context.applicationContext)
-        LoginManager.getInstance().registerCallback(callbackManager, callback)
+        if(socialConfigOwner.socialConfig.facebookAppId!=null) {
+            FacebookSdk.setApplicationId(socialConfigOwner.socialConfig.facebookAppId)
+            FacebookSdk.sdkInitialize(context.applicationContext)
+            LoginManager.getInstance().registerCallback(callbackManager, callback)
+        }
     }
 
     fun getCurrentUserProfile(callback: (SocialUser?, Throwable?) -> Unit) {
