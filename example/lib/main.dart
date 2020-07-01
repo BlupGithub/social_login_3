@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final SocialLogin socialLogin = SocialLogin();
 
-  static const FACEBOOK_APP_ID = "2249712475303378";
+  static const FACEBOOK_APP_ID = null;//"2249712475303378";
   static const GOOGLE_WEB_CLIENT_ID =
       "439602412049-gb519jk7cp06i3i3u4svjkl92f9j8t4k.apps.googleusercontent.com";
   static const TWITTER_CONSUMER_KEY = "LfNAorWdEOHjjz3ugRd3v3Fyu";

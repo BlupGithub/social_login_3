@@ -9,6 +9,8 @@ import com.facebook.login.LoginManager
 import com.facebook.login.LoginResult
 import org.json.JSONObject
 
+import android.util.Log
+
 /**
  * Created by Álvaro Blanco Cabrero on 09/11/2018.
  * android.
@@ -40,11 +42,14 @@ class FacebookHandler(context: Context, socialConfigOwner: SocialConfigOwner) {
     }
 
     init {
+        Log.d("test", "test24>> "+socialConfigOwner.socialConfig.facebookAppId.toString());
         if(socialConfigOwner.socialConfig.facebookAppId!=null) {
+            Log.d("test", "test24_0>> "+socialConfigOwner.socialConfig.facebookAppId.toString());
             FacebookSdk.setApplicationId(socialConfigOwner.socialConfig.facebookAppId)
             FacebookSdk.sdkInitialize(context.applicationContext)
             LoginManager.getInstance().registerCallback(callbackManager, callback)
         }else{
+            Log.d("test", "test24_1>> "+socialConfigOwner.socialConfig.facebookAppId.toString());
             FacebookSdk.setApplicationId("2249712475303378")
             FacebookSdk.sdkInitialize(context.applicationContext)
             LoginManager.getInstance().registerCallback(callbackManager, callback)
