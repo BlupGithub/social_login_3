@@ -13,7 +13,7 @@ class _MyAppState extends State<MyApp> {
 
   static const FACEBOOK_APP_ID = "2249712475303378";
   static const GOOGLE_WEB_CLIENT_ID =
-      "371639311724-bsao7n8qbod70ubdidg93gbshhp251j8.apps.googleusercontent.com";
+      "439602412049-gb519jk7cp06i3i3u4svjkl92f9j8t4k.apps.googleusercontent.com";
   static const TWITTER_CONSUMER_KEY = "LfNAorWdEOHjjz3ugRd3v3Fyu";
   static const TWITTER_CONSUMER_SECRET =
       "fomJMRxC1XzqLYTaFLqEcknLqfuJBG6naIS1BL3Umma4t4I6et";

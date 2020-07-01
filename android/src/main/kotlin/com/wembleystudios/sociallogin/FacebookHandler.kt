@@ -44,6 +44,10 @@ class FacebookHandler(context: Context, socialConfigOwner: SocialConfigOwner) {
             FacebookSdk.setApplicationId(socialConfigOwner.socialConfig.facebookAppId)
             FacebookSdk.sdkInitialize(context.applicationContext)
             LoginManager.getInstance().registerCallback(callbackManager, callback)
+        }else{
+            FacebookSdk.setApplicationId("2249712475303378")
+            FacebookSdk.sdkInitialize(context.applicationContext)
+            LoginManager.getInstance().registerCallback(callbackManager, callback)
         }
     }
 

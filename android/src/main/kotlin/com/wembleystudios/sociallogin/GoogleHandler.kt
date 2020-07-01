@@ -54,7 +54,6 @@ class GoogleHandler(private val socialConfigOwner: SocialConfigOwner) {
                 GoogleSignIn.getSignedInAccountFromIntent(data).getResult(ApiException::class.java)
             onLoginResult?.invoke(account?.toSocialUser(), null)
         } catch (e: ApiException) {
-            Log.e("tagg", "error> "+e.toString());
             onLoginResult?.invoke(null, e)
         }
         return true
