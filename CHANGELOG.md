@@ -1,3 +1,7 @@
+## 0.0.8
+
+* added platforms: in pubspec.yaml
+
 ## 0.0.7
 
 * upgraded kotlin version to 1.3.10 & onActivityResult() clash resolve

@@ -9,12 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef98ecf-a4f0-4335-9d97-c463bcc7a5ad" name="Default" comment="Facebook error fix in progress.">
+    <list default="true" id="fef98ecf-a4f0-4335-9d97-c463bcc7a5ad" name="Default" comment="onActivityResult() clash fix in progress.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/FacebookHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/FacebookHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/SocialLoginPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/SocialLoginPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,19 +115,31 @@
       <option name="project" value="LOCAL" />
       <updated>1593642228522</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="onActivityResult() clash fix in progress.">
+      <created>1599422262806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599422262807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INITIAL COMMIT" />
     <MESSAGE value="Facebook error fix in progress." />
-    <option name="LAST_COMMIT_MESSAGE" value="Facebook error fix in progress." />
+    <MESSAGE value="onActivityResult() clash fix in progress." />
+    <option name="LAST_COMMIT_MESSAGE" value="onActivityResult() clash fix in progress." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="25" key="CommitChangelistDialog2" timestamp="1599422208118">
+    <state x="390" y="25" key="CommitChangelistDialog2" timestamp="1599422262071">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="390" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599422208118" />
+    <state x="390" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599422262071" />
+    <state x="365" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599422265124">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="365" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599422265124" />
     <state x="582" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599422212392">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

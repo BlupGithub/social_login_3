@@ -1,10 +1,14 @@
 name: social_login_3
 description: A social login plugin derived from `social_login`
-version: 0.0.7
+version: 0.0.8
 homepage: https://github.com/BlupGithub/social_login_3
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
+  # Flutter versions prior to 1.12 did not support the
+  # flutter.plugin.platforms map.
+  flutter: ">=1.10.0 <2.0.0"
+
 
 dependencies:
   flutter:
@@ -16,9 +20,10 @@ dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    android:
-      package: com.wembleystudios.sociallogin
-      class: SocialLoginPlugin
+    platforms:
+      android:
+        package: com.wembleystudios.sociallogin
+        class: SocialLoginPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
