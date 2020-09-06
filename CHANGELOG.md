@@ -1,3 +1,7 @@
+## 0.0.7
+
+* upgraded kotlin version to 1.3.10 & onActivityResult() clash resolve
+
 ## 0.0.2
 
 * upgraded kotlin version to 1.3.10 due to Gradle dependency error
