@@ -100,16 +100,17 @@ class SocialLoginPlugin(private val activity: Activity) : MethodCallHandler,
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?): Boolean {
         if(requestCode!=42120) {
-            if (this.socialConfig.facebookAppId != null) {
+            if (this.socialConfig.facebookAppId != null&&this.socialConfig.googleWebClientId!=null&&this.socialConfig.twitterConsumer!=null) {
                 return facebookHandler.onActivityResult(requestCode, resultCode, data)
                         || googleHandler.onActivityResult(requestCode, resultCode, data)
                         || twitterHandler.onActivityResult(requestCode, resultCode, data)
 
-            } else {
+            } else if(this.socialConfig.googleWebClientId!=null&&this.socialConfig.twitterConsumer!=null){
                 return googleHandler.onActivityResult(requestCode, resultCode, data)
                         || twitterHandler.onActivityResult(requestCode, resultCode, data)
             }
         }
+        return false;
     }
 
     private fun handleSocialLoginResponse(

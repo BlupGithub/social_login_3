@@ -1,6 +1,6 @@
 name: social_login_3
 description: A social login plugin derived from `social_login`
-version: 0.0.9
+version: 0.1.1
 homepage: https://github.com/BlupGithub/social_login_3
 
 environment:

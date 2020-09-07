@@ -12,6 +12,7 @@
     <list default="true" id="fef98ecf-a4f0-4335-9d97-c463bcc7a5ad" name="Default" comment="pubspec.yaml update related to new plugin mappings.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/SocialLoginPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/SocialLoginPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +43,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="980" />
-    <option name="height" value="1100" />
   </component>
   <component name="ProjectId" id="1h9RKr9rhTQhZTrEgtpDGnlnD70" />
   <component name="ProjectViewState">
@@ -129,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599425069613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pubspec.yaml update related to new plugin mappings.">
+      <created>1599425284701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599425284701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,14 +142,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="pubspec.yaml update related to new plugin mappings." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="25" key="CommitChangelistDialog2" timestamp="1599425068944">
+    <state x="390" y="25" key="CommitChangelistDialog2" timestamp="1599425283514">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="390" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599425068944" />
-    <state x="365" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599425072290">
+    <state x="390" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599425283514" />
+    <state x="365" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599425287688">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="365" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599425072290" />
+    <state x="365" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599425287688" />
     <state x="582" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599422212392">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

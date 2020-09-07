@@ -1,10 +1,18 @@
+## 0.1.1
+
+* TwitterAuthConfig must not be created with null consumer key or secret. fix.
+
+## 0.1.0
+
+* onActivityResult() fix.
+
 ## 0.0.9
 
 * added pluginClass: in pubspec.yaml
 
 ## 0.0.8
 
-* added platforms: in pubspec.yaml
+* added platforms: in pubspec.yaml & facebookAppId fix.
 
 ## 0.0.7
 
