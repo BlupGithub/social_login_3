@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Use Standalone Social login Fix.
+
 ## 0.1.1
 
 * TwitterAuthConfig must not be created with null consumer key or secret. fix.

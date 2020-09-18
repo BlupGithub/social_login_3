@@ -108,6 +108,18 @@ class SocialLoginPlugin(private val activity: Activity) : MethodCallHandler,
             } else if(this.socialConfig.googleWebClientId!=null&&this.socialConfig.twitterConsumer!=null){
                 return googleHandler.onActivityResult(requestCode, resultCode, data)
                         || twitterHandler.onActivityResult(requestCode, resultCode, data)
+            }else if(this.socialConfig.googleWebClientId!=null&&this.socialConfig.facebookAppId != null){
+                return googleHandler.onActivityResult(requestCode, resultCode, data)
+                        || facebookHandler.onActivityResult(requestCode, resultCode, data)
+            }else if(this.socialConfig.twitterConsumer!=null&&this.socialConfig.facebookAppId != null){
+                return twitterHandler.onActivityResult(requestCode, resultCode, data)
+                        || facebookHandler.onActivityResult(requestCode, resultCode, data)
+            }else if(this.socialConfig.twitterConsumer!=null){
+                return twitterHandler.onActivityResult(requestCode, resultCode, data)
+            }else if(this.socialConfig.googleWebClientId!=null){
+                return googleHandler.onActivityResult(requestCode, resultCode, data)
+            }else if(this.socialConfig.facebookAppId != null){
+                return facebookHandler.onActivityResult(requestCode, resultCode, data)
             }
         }
         return false;

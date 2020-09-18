@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef98ecf-a4f0-4335-9d97-c463bcc7a5ad" name="Default" comment="pubspec.yaml update related to new plugin mappings.">
+    <list default="true" id="fef98ecf-a4f0-4335-9d97-c463bcc7a5ad" name="Default" comment="TwitterID fix.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/SocialLoginPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/wembleystudios/sociallogin/SocialLoginPlugin.kt" afterDir="false" />
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599425284701</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TwitterID fix.">
+      <created>1599471031818</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599471031818</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,17 +146,18 @@
     <MESSAGE value="Facebook error fix in progress." />
     <MESSAGE value="onActivityResult() clash fix in progress." />
     <MESSAGE value="pubspec.yaml update related to new plugin mappings." />
-    <option name="LAST_COMMIT_MESSAGE" value="pubspec.yaml update related to new plugin mappings." />
+    <MESSAGE value="TwitterID fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="TwitterID fix." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="25" key="CommitChangelistDialog2" timestamp="1599425283514">
+    <state x="390" y="25" key="CommitChangelistDialog2" timestamp="1600431672229">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="390" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1599425283514" />
-    <state x="365" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599425287688">
+    <state x="390" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600431672229" />
+    <state x="365" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599471034461">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="365" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599425287688" />
+    <state x="365" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599471034461" />
     <state x="582" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599422212392">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
