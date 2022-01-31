@@ -1,4 +1,4 @@
-# social_login
+# social_login (Not maintained for now.)
 
 [![pub package](https://img.shields.io/pub/v/social_login.svg)](https://pub.dartlang.org/packages/social_login)
 
